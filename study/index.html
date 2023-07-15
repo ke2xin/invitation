@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css" />
+  <link rel="stylesheet" type="text/css" href="css/loaders.css" />
+  <title>28个纯css3 加载loading动画特效</title>
+</head>
+
+<body>
+  <div id="ll">
+    <div class="loaders">
+      <div class="loader">
+        <div class="loader-inner cube-transition">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelector('#ll').className += 'loaded';
+    });
+  </script>
+</body>
